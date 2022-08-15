@@ -209,3 +209,63 @@ input[type=submit]
   {
     padding-bottom: 30px;
   }
+
+  @media all and (max-width: 700px)
+{
+    #bloc_page
+    {
+        width:auto;
+    }
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    header
+    {
+        flex-direction: column;
+        background-color: #f6b7af;
+        
+    }
+
+    header p
+    {
+        display: none;
+    }
+
+    header button
+    {
+        display: none;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+        padding-right: 4px;
+        
+    }
+    
+    nav a
+    {
+        font-size: 0.8em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+
+    #home>img
+    {
+        width:1px;
+    }
+    
+}
+
+footer p 
+    {
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    };
