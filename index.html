@@ -8,31 +8,37 @@
 <body>
     <div id="bloc_page">
         <header>
-            <p><img src="images/logo-1-150x150.png" alt="Logo"></p>
+            <p><img src="images/logo-1-150x150.png" alt="Logo" class ="logo"></p>
 
             <nav>
                 <ul>
-                    <li>Home</li>
+                    <li><a href = "#home">Home</a></li>
                     <li><a href = "#aboutme">About</a></li>
                     <li><a href = "#portfolio">Portfolio</a></li>
                     <li><a href = "#contact">Contact</a></li>
                 </ul>
             </nav>
 
-            <button type="button">Hire Me</button>
+            <a href="https://www.w3schools.com/css/css3_buttons.asp"><button type="button">Hire Me</button></a>
 
         </header>
 
-        <section>
-            <h1>I'm Web Developer Natalie E. Watson</h1>
+        <section id="home">
+            <div id="heroelement1">
+            <h1 id="maintitle">I'm Web Developer Natalie E. Watson</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctusnec ullamcorper mattis, pulvinar dapibus leop llamcorper, lorem ipsum.</p>
-                <p><img src="images/h1_hero-bg.png" alt="Natalie E. Watson"></p>
-                <button type="button">Learn More</button>
+                <button type="button" >Learn More</button>
+            </div>
+            <div id="heroelement2"> 
+                <p><img src="images/h1_hero-bg.png" alt="Natalie E. Watson" id="natphoto"></p>
+            </div>
         </section>
 
         <section id="aboutme">
-            <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="sectiontitle">
+            <h1 class="centertxt">About Me</h1>
+                <p class="centertxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
 
                 <h2>Developing With a Passion While Exploring The World.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -158,7 +164,7 @@
         </section>
 
         <footer>
-            <p><img src="images/logo-footer.png" alt="Logo"></p>
+            <p><img src="images/logo-footer.png" alt="Logo" class ="logo"></p>
             <p>Template reproduced by Jean Chane-to</p>
             <p><a href ="files/CV de Jean Chane-to.pdf" title="Click to download">Download Jean Chane-to's CV</a></p>
             <p><a href= "mailto:jeanchaneto@gmail.com">Contact Jean Chane-to</a></p>
