@@ -5,11 +5,7 @@ body
     color:#0f2c58
 }
 
-#bloc_page
-{
-    
-    
-}
+
 
 header
 {
@@ -189,11 +185,12 @@ input[type=submit]
   footer
   {
     background-color: #0f2c58;
-    color: #fcf5f5;
+    color: rgb(228, 221, 221);
     padding: 60px 60px;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    font-size: small;
       
   }
 
